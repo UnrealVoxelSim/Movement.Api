@@ -26,34 +26,34 @@ class Scalar final
 
     [[nodiscard]] constexpr std::int64_t Raw() const noexcept
     {
-        return Raw_;
+        return m_Raw;
     }
 
     [[nodiscard]] double ToDouble() const noexcept
     {
-        return static_cast<double>(Raw_) / static_cast<double>(OneRaw);
+        return static_cast<double>(m_Raw) / static_cast<double>(OneRaw);
     }
 
     constexpr Scalar &operator+=(const Scalar right) noexcept
     {
-        Raw_ += right.Raw_;
+        m_Raw += right.m_Raw;
         return *this;
     }
 
     constexpr Scalar &operator-=(const Scalar right) noexcept
     {
-        Raw_ -= right.Raw_;
+        m_Raw -= right.m_Raw;
         return *this;
     }
 
     auto operator<=>(const Scalar &) const = default;
 
   private:
-    explicit constexpr Scalar(const std::int64_t raw) noexcept : Raw_(raw)
+    explicit constexpr Scalar(const std::int64_t raw) noexcept : m_Raw(raw)
     {
     }
 
-    std::int64_t Raw_{};
+    std::int64_t m_Raw{};
 };
 
 [[nodiscard]] constexpr Scalar operator+(Scalar left, const Scalar right) noexcept
