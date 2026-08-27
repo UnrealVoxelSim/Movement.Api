@@ -20,4 +20,4 @@ namespace UnrealVoxelSim::Movement::Api
 		virtual ~IReader() = default;
 		[[nodiscard]] virtual std::expected<State, ReadError> Read(Ecs::Api::EntityId entity) const noexcept = 0;
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}

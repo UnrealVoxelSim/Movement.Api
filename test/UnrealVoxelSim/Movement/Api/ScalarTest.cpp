@@ -9,4 +9,4 @@ TEST(ScalarTest, RepresentsWholeVoxelExactly)
     static_assert(value.Raw() == -3 * Scalar::OneRaw);
     EXPECT_DOUBLE_EQ(value.ToDouble(), -3.0);
 }
-} // namespace UnrealVoxelSim::Movement::Api
+}

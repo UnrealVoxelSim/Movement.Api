@@ -10,4 +10,4 @@ namespace UnrealVoxelSim::Movement::Api
 		NotRegistered,
 		LocationBlocked,
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}

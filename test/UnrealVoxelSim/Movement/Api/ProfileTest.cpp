@@ -13,4 +13,4 @@ TEST(ProfileTest, StandardHumanShapeAndCapabilitiesAreConfigurable)
     EXPECT_EQ(profile.MaximumRise, 1);
     EXPECT_EQ(profile.MaximumDrop, 4);
 }
-} // namespace UnrealVoxelSim::Movement::Api
+}

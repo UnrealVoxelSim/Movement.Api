@@ -23,4 +23,4 @@ namespace UnrealVoxelSim::Movement::Api
 		// TODO Remove what and from where? It is not clear what this method does.
 		[[nodiscard]] virtual std::expected<void, CommandError> Remove(Ecs::Api::EntityId entity) = 0;
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}

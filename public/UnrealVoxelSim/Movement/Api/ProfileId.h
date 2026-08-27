@@ -21,4 +21,4 @@ namespace UnrealVoxelSim::Movement::Api
 	private:
 		std::uint32_t m_Value{};
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}

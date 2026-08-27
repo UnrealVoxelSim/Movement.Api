@@ -14,4 +14,4 @@ namespace UnrealVoxelSim::Movement::Api
 		ProfileId Profile;
 		bool Grounded{};
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}

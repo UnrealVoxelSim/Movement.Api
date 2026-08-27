@@ -16,4 +16,4 @@ namespace UnrealVoxelSim::Movement::Api
 		IntentErrorType Error;
 		std::size_t IntentIndex{};
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}

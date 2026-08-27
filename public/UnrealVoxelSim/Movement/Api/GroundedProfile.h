@@ -28,4 +28,4 @@ namespace UnrealVoxelSim::Movement::Api
 				CollisionSkin.Raw() < static_cast<std::int64_t>(Length) * Scalar::OneRaw / 2;
 		}
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}

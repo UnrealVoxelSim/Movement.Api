@@ -13,4 +13,4 @@ namespace UnrealVoxelSim::Movement::Api
 
 		auto operator<=>(const Vector&) const = default;
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}

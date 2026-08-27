@@ -16,4 +16,4 @@ namespace UnrealVoxelSim::Movement::Api
 		Vector DesiredVelocity;
 		bool Jump{};
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}

@@ -25,4 +25,4 @@ namespace UnrealVoxelSim::Movement::Api
 		virtual ~IUpdater() = default;
 		virtual void Update(Simulation::Api::StepContext context) = 0;
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}

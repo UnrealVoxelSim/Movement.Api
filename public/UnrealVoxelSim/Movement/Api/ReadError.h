@@ -8,4 +8,4 @@ enum class ReadError
     NotRegistered,
 };
 
-} // namespace UnrealVoxelSim::Movement::Api
+}

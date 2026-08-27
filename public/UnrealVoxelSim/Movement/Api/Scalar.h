@@ -72,4 +72,4 @@ namespace UnrealVoxelSim::Movement::Api
 	{
 		return Scalar::FromRaw(-value.Raw());
 	}
-} // namespace UnrealVoxelSim::Movement::Api
+}

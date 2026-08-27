@@ -13,4 +13,4 @@ namespace UnrealVoxelSim::Movement::Api
 		ProfileId Profile;
 		Position Location;
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}
