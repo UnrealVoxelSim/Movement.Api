@@ -6,12 +6,11 @@
 
 namespace UnrealVoxelSim::Movement::Api
 {
-
-struct Register final
-{
-    Ecs::Api::EntityId Entity;
-    ProfileId Profile;
-    Position Location;
-};
-
+	// TODO It is not clear what word "Register" means here. It seems like this struct is only used in ICommands::Add() method. If so, remove it and use exploded method arguments.
+	struct Register final
+	{
+		Ecs::Api::EntityId Entity;
+		ProfileId Profile;
+		Position Location;
+	};
 } // namespace UnrealVoxelSim::Movement::Api

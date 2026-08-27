@@ -6,13 +6,12 @@
 
 namespace UnrealVoxelSim::Movement::Api
 {
-
-struct State final
-{
-    Position Location;
-    Vector Velocity;
-    ProfileId Profile;
-    bool Grounded{};
-};
-
+	// TODO I already mentioned this struct in another TODO. This struct likely requires separation in multiple independent ECS components. And potentially even moved into separate modules like Position.
+	struct State final
+	{
+		Position Location;
+		Vector Velocity;
+		ProfileId Profile;
+		bool Grounded{};
+	};
 } // namespace UnrealVoxelSim::Movement::Api

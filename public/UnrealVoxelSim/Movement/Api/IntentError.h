@@ -4,18 +4,16 @@
 
 namespace UnrealVoxelSim::Movement::Api
 {
+	enum class IntentErrorType
+	{
+		EntityNotRegistered,
+		DuplicateEntity,
+		InvalidVelocity,
+	};
 
-enum class IntentErrorType
-{
-    EntityNotRegistered,
-    DuplicateEntity,
-    InvalidVelocity,
-};
-
-struct IntentError final
-{
-    IntentErrorType Error;
-    std::size_t IntentIndex{};
-};
-
+	struct IntentError final
+	{
+		IntentErrorType Error;
+		std::size_t IntentIndex{};
+	};
 } // namespace UnrealVoxelSim::Movement::Api
