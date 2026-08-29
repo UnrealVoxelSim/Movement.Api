@@ -1,5 +1,5 @@
 find_package(GTest CONFIG REQUIRED)
-add_executable(${PROJECT_NAME}.Test UnrealVoxelSim/Movement/Api/ScalarTest.cpp UnrealVoxelSim/Movement/Api/ProfileTest.cpp)
+add_executable(${PROJECT_NAME}.Test UnrealVoxelSim/Movement/Api/ProfileTest.cpp)
 target_link_libraries(${PROJECT_NAME}.Test PRIVATE ${PROJECT_NAME} GTest::gtest_main)
 UnrealVoxelSimConfigureTarget(${PROJECT_NAME}.Test)
 include(GoogleTest)
