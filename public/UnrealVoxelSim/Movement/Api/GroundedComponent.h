@@ -6,4 +6,4 @@ namespace UnrealVoxelSim::Movement::Api
 	{
 		bool Value{};
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}

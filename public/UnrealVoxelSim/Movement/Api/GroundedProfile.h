@@ -19,7 +19,8 @@ namespace UnrealVoxelSim::Movement::Api
 		Math::Api::FixedPointScalar JumpSpeed{Math::Api::FixedPointScalar::FromWhole(7)};
 		Math::Api::FixedPointScalar Gravity{Math::Api::FixedPointScalar::FromWhole(-20)};
 		Math::Api::FixedPointScalar CollisionSkin{
-			Math::Api::FixedPointScalar::FromRaw(Math::Api::FixedPointScalar::OneRaw / 16)};
+			Math::Api::FixedPointScalar::FromRaw(Math::Api::FixedPointScalar::OneRaw / 16)
+		};
 
 		[[nodiscard]] constexpr bool IsValid() const noexcept
 		{

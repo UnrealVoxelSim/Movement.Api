@@ -18,7 +18,7 @@ namespace UnrealVoxelSim::Movement::Api
  	*
  	* Consider defining a single step-participant contract in Simulation.Api
  	* and letting systems that require simulation ticks implement it.
- 	*/	
+ 	*/
 	class IUpdater
 	{
 	public:

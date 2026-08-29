@@ -4,8 +4,8 @@
 
 namespace UnrealVoxelSim::Movement::Api
 {
-	struct MovementProfileComponent final
+	struct ProfileComponent final
 	{
 		ProfileId Profile;
 	};
-} // namespace UnrealVoxelSim::Movement::Api
+}
