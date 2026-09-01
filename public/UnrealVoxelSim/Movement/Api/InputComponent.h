@@ -5,7 +5,8 @@
 
 namespace UnrealVoxelSim::Movement::Api
 {
-	// One resolved controller sample for one simulation tick. A stale sample is equivalent to zero input.
+	// Public read contract for one resolved controller sample. Movement is its sole writer and structural owner.
+	// A sample is consumed only for its matching simulation tick; a stale sample is equivalent to neutral input.
 	struct InputComponent final
 	{
 		Simulation::Api::TickIndex Tick;
